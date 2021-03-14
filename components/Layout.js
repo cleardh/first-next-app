@@ -4,6 +4,7 @@ import styles from '../styles/Layout.module.css';
 export default ({ children }) => {
     return (
         <>
+            <Meta />
             <Nav />
             <div className={styles.container}>
                 <main className={styles.main}>
